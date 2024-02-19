@@ -12,7 +12,7 @@ const router = Router();
 router.get("/getAll", getAllProducts);
 router.get("/getOne/:bc", getOneProduct);
 router.post("/insert", insertProduct);
-router.post("/update/:bc", updateProduct);
+router.put("/update/:bc", updateProduct);
 router.delete("/delete:bc", deleteProduct);
 
 export default router;
