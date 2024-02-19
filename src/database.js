@@ -2,7 +2,7 @@ import chalk from "chalk";
 import mongoose from "mongoose";
 
 mongoose
-  .connect(process.env.CONNECTION_STRING_DB)
+  .connect("mongodb+srv://octadev:112020a@clusteroctavio.n8a1lsl.mongodb.net/groceriesdb?retryWrites=true&w=majority")
   .then(() => {
     console.log(
       chalk.green(
