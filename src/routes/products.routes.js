@@ -13,6 +13,6 @@ router.get("/getAll", getAllProducts);
 router.get("/getOne/:bc", getOneProduct);
 router.post("/insert", insertProduct);
 router.put("/update/:bc", updateProduct);
-router.delete("/delete:bc", deleteProduct);
+router.delete("/delete/:bc", deleteProduct);
 
 export default router;
